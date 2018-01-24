@@ -1,0 +1,42 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/marshall/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Python_Play/com.python.pydev.analysis/v2_indexcache
+XlHandler.xlCreate|1451341977000000000|/Users/marshall/workspace/Python_Play/XlHandler/xlCreate.py
+excel_Summary|1471028736000000000|/Users/marshall/workspace/Python_Play/excel_Summary.py
+XlHandler.mainman|1463683221000000000|/Users/marshall/workspace/Python_Play/XlHandler/mainman.py
+XlHandler.__init__|1445542815000000000|/Users/marshall/workspace/Python_Play/XlHandler/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+2=excel_Summary
+3=XlHandler.xlCreate
+1=XlHandler.mainman
+6=WbCreate.__init__
+4=WbCreate
+5=WbUtils
+-- END DICTIONARY
+-- START TREE 1
+10
+con|1|consolidateWorkbooks!10@
+cop|1|copy_sheets!18@
+cre|2|createTemplateSheet!10@createSummaryPage!10@
+fin|1|find_next_line_on_summary_sheet!18@
+ins|1|insert_result_in_summary_sheet!18@
+mai|1|main!10@
+par|1|params!18@
+wbc|1|WbCreate!25@
+wbu|1|WbUtils!25@
+wri|1|writeToDb!10@
+-- END TREE
+-- START TREE 2
+9
+__i|2|__init__!4&26@__init__!5&26@
+cre|1|createtemplate!4&26@
+dec|2|decrementColumn!5&26@decrementRow!5&26@
+inc|2|incrementRow!5&26@incrementColumn!5&26@
+loa|1|loadtemplate!4&26@
+sav|1|saveWb!4&26@
+she|1|sheetsearch!5&26@
+wb|2|wb!4&27@wb!6&27@
+wbt|1|wbtodb!5&26@
+-- END TREE

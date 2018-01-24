@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/cmeQA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/CommunityPFTRuns" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/DataExtractionscript" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/DataSampling" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/PIA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/Transnap_Functional_Automation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/code_changes_graphs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/confluence_data_collector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/dms_automation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/dummy2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/fpm_pre_processing_automation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/fpm_systest_automation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/fpm_v2_systest_automation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/geo_editor_automation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/jenkins" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/jira-test-details" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/maqi-collector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/maqi_cmeqa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmeQA/smartsampling_attribute_coverage" vcs="Git" />
+  </component>
+</project>
