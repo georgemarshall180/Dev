@@ -27,7 +27,7 @@ DEBUG = 0
 TESTRUN = 0
 PROFILE = 1
 
-a1 =
+
 class CLIError(Exception):
     '''Generic exception to raise and log different fatal errors.'''
     def __init__(self, msg):
@@ -53,8 +53,8 @@ def main(argv=None): # IGNORE:C0111
     program_shortdesc = __import__('__main__').__doc__.split("\n")[1]
    
    
-    print "/n hello World this is a test"
-    print "%s" %"this is a test"
+    print ("/n hello World this is a test")
+    print ("%s" %"this is a test")
     
 
     try:
@@ -93,13 +93,9 @@ def main(argv=None): # IGNORE:C0111
     except KeyboardInterrupt:
         ### handle keyboard interrupt ###
         return 0
-    except Exception, e:
-        if DEBUG or TESTRUN:
-            raise(e)
-        indent = len(program_name) * " "
-        sys.stderr.write(program_name + ": " + repr(e) + "\n")
-        sys.stderr.write(indent + "  for help use --help")
-        return 2
+    except Exception:
+        print(Exception)
+
 
 if __name__ == "__main__":
     if DEBUG:
