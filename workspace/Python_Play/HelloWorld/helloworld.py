@@ -27,6 +27,7 @@ DEBUG = 0
 TESTRUN = 0
 PROFILE = 1
 
+a1 =
 class CLIError(Exception):
     '''Generic exception to raise and log different fatal errors.'''
     def __init__(self, msg):
