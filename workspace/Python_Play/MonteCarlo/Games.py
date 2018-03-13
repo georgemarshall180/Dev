@@ -23,19 +23,21 @@ def blackJack():
     # print('BlackJack')
     result = ''
 
+    # Create3 a hand for dealer and player.
     playercards = list()
     dealercards = list()
 
-    # Deal the cards
+    # Deal the cards into the hand of each.
     playercards.append(chooseCard())
     playercards.append(chooseCard())
     dealercards.append(chooseCard())
     dealercards.append(chooseCard())
 
-    # keep total of the cards.
+    # keep total of the cards to see how close they are.
     sumplayercards = sum(playercards)
     sumdealercards = sum(dealercards)
 
+    # basic strategy if the player is 16 or less then hit unless over 21.
     while sumplayercards <= 16  :
         # keep hitting until you are up to 16
         playercards.append(chooseCard())
@@ -46,7 +48,8 @@ def blackJack():
             result = 'lose'
             return result
 
-    while sumdealercards < 17 :
+    # deal to the Dealer until he hits 17 or more
+    while sumdealercards <= 17 :
         # keep hitting on dealer until it is 17 or higher
         dealercards.append(chooseCard())
         sumdealercards = sum(dealercards)
@@ -62,6 +65,7 @@ def blackJack():
             # print(result)
             return result
 
+    # See if you won or lost.
     # if the players cards are higher than dealers you win
     if sumplayercards > sumdealercards:
         result = 'win'
@@ -80,18 +84,19 @@ def blackJack():
     ## split
     ## insurance
 
-
     return result
 
 def roulette():
     # print("Roulette")
-    print(roulette_spin())
+    result = roulette_spin()
+    print("Number is:" + repr(result) )
 
     ## BETS
     ## 1-12,12-24,24-36
     ## 1-18, 18-36
     ## black or red
     ## even or odd
+    return result
 
 def craps():
     print("craps")
