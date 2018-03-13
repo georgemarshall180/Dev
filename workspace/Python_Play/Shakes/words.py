@@ -6,8 +6,8 @@ import string
 
 # start of main
 def main():
-    fhand = open('shakes.txt')
-    counts = dict()
+    fhand = open('shakes.txt')  # open the file to analyzed.
+    counts = dict()    # this is a dict to hold the words and the number of them.
     for line in fhand:
         line = line.translate(string.punctuation)  #next lines strip extra stuff out and format properly.
         line = line.lower()
